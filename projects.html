@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Kanz Giwa</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        button {
+            border-radius: 20px;
+            background-color: rgb(42, 118, 185);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(46, 109, 173);
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+        }
+
+        .project {
+            margin: 20px auto;
+            width: 80%;
+            text-align: center;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+
+        .project img, .project video {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        h2, h3 {
+            text-align: center;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+
+        body {
+            background-color: rgb(234, 235, 206);
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+        footer {
+            background-color: rgb(42, 118, 185);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <button>Home</button>
+        </a>
+        <a href="about.html">
+            <button>About Me</button>
+        </a>
+        <a href="projects.html">
+            <button>Projects</button>
+        </a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>Mood Tracker App</h3>
+                <p>I created a Mood Tracker app using Flutter and Dart. The app allows users to track daily moods, answer questions, and receive weekly reports with generic advice.</p>
+                <video width="600" height="400" controls>
+                    <source src="mood_trackerDemo.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="project">
+                <h3>JavaScript Projects on Khan Academy</h3>
+                <a href="https://www.khanacademy.org/profile/kaid_1694603849066472113774326/projects">View my Khan Academy Projects</a>
+                <p>I created multiple JavaScript side projects on Khan Academy, including games like Memory, Tic-Tac-Toe, Dice Game, and many more.</p>
+                <img src="khan.jpeg" width="600" height="300" alt="Khan Profile">
+            </div>
+
+            <div class="project">
+                <h3>Coloring Game</h3>
+                <a href="https://www.khanacademy.org/computer-programming/coloring-game/4792972162023424">Play the Coloring Game</a>
+                <p>This JavaScript-based coloring game allows users to choose different pages and colors to create fun artwork.</p>
+                <img src="finalProj.jpeg" width="600" height="300" alt="Coloring Game Project">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Kanz Giwa | <a href="mailto:kanzgiwa@gmail.com">Contact me Via Email</a></p>
+        <p>401-204-4672 | Contact me Via Phone</p>
+        <a href="https://www.linkedin.com/in/kanz-giwa-29113426b/">Connect With me on LinkedIn</a>
+    </footer>
+</body>
+</html>
