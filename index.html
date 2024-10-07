@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kanz Giwa</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Global Styling */
+        body {
+            background-color: rgb(234, 235, 206);
+            font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Button Styling */
+        button {
+            border-radius: 20px;
+            background-color: rgb(42, 118, 185);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(46, 109, 173);
+        }
+
+        /* Navigation Bar */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+        }
+
+        /* Main Content Styling */
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        main h2 {
+            font-size: 2em;
+            color: rgb(42, 118, 185);
+        }
+
+        main p {
+            font-size: 1.2em;
+            color: rgb(17, 1, 1);
+        }
+
+        main a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgb(42, 118, 185);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        main a:hover {
+            background-color: rgb(46, 109, 173);
+        }
+
+        /* Image Styling */
+        .center-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Adds space between the images */
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Adjusted Image Sizes */
+        .image-large {
+            width: 800px;
+            height: auto;
+        }
+
+        .image-small {
+            width: 350px;
+            height: auto;
+            border-radius: 20%;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: rgb(42, 118, 185);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <button>Home</button>
+        </a>
+        <a href="about.html">
+            <button>About Me</button>
+        </a>
+        <a href="projects.html">
+            <button>Projects</button>
+        </a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello, my name is Kanz Giwa. I'm a sophomore majoring in Computer Science at the University of Rhode Island. Here's a showcase of my work and experiences.</p>
+            <a href="projects.html">View My Projects</a>
+        </section>
+    </main>
+
+    <div class="center-image">
+        <img src="coding.jpg" class="image-large" alt="Coding Picture">
+        <img src="medium.jpg" class="image-small" alt="Profile Picture">
+    </div>
+
+    <footer>
+        <p>© 2024 Kanz Giwa | <a href="mailto:kanzgiwa@gmail.com">Contact me via Email</a></p>
+        <p>Phone: 401-204-4672</p>
+        <a href="https://www.linkedin.com/in/kanz-giwa-29113426b/">Connect with me on LinkedIn</a>
+    </footer>
+</body>
+</html>

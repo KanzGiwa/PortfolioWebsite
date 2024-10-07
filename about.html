@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Kanz Giwa</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+         button {
+            border-radius: 20px;
+            background-color: rgb(42, 118, 185);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: rgb(46, 109, 173);
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+        }
+
+        /* Flexbox container for layout */
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 0 30px;
+        }
+
+        .content-container .text {
+            flex: 0.85;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+
+        .content-container .image-container {
+            flex: 0 0 300px;
+        }
+
+        img {
+            max-width: 100%; 
+            height: auto;
+            border-radius: 20%;
+        }
+
+        h2, h3 {
+            text-align: center;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+        h3 {
+            text-align: left;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+
+        ul {
+            margin-left: 30px;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+
+        body {
+            background-color: rgb(234, 235, 206);
+            font-family: 'Lucida Sans', Geneva, sans-serif;
+        }
+        footer {
+            background-color: rgb(42, 118, 185);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <button>Home</button>
+        </a>
+        <a href="about.html">
+            <button>About Me</button>
+        </a>
+        <a href="projects.html">
+            <button>Projects</button>
+        </a>
+    </nav>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <div class="content-container">
+                <!-- Text -->
+                <div class="text">
+                    <p>
+                        I began learning how to program my freshman year of college, taking relevant coursework during my time at the University of Rhode Island, such as Discrete Math, Data Structures, The Joy of Programming, Fundamentals of Programming, Computer Programming, and Programming with Data Science. I'm passionate about developing creative technology solutions.
+                    </p>
+                    <p>
+                        At URI, I've developed programming skills in Python, C++, C, SQL, and JavaScript, alongside several side projects using languages like HTML, CSS, JavaScript, Python, Flutter, and Dart. I also work at the Academic Enhancement Center as a tutor at URI, where I help students with courses like Computer Programming, The Joy of Programming, and Fundamentals of Programming while honing my skills in Python, C++/C, and JavaScript. 
+                    </p>
+                    <p>
+                        Working in a variety of non-technology-related environments, such as a hospital, an auto shop, and being an intern for a nonprofit focused on clean energy, has improved my communication skills, given me the ability to thrive in demanding, high-stress work environments, and developed a motivated work ethic. 
+                        I aim to work as a software engineer in a professional atmosphere and use my skills to break into the tech industry.
+                    </p>
+                    <p>
+                        Outside of school, I enjoy playing basketball, lifting weights, spending time with family, and learning new things.
+                    </p>
+                </div>
+                
+                <!-- Image -->
+                <div class="image-container">
+                    <img src="medium.jpg" alt="Profile Picture">
+                </div>
+            </div>
+
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++/C</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Flutter</li>
+                <li>Dart</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Kanz Giwa | <a href="mailto:kanzgiwa@gmail.com">Contact me via Email</a></p>
+        <p>Phone: 401-204-4672</p>
+        <a href="https://www.linkedin.com/in/kanz-giwa-29113426b/">Connect with me on LinkedIn</a>
+    </footer>
+</body>
+</body>
+</html>
